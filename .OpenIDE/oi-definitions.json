@@ -1,0 +1,121 @@
+{
+  "commands": [
+    {
+      "arguments": [
+        {
+          "arguments": [],
+          "cmd": "NAME",
+          "description": "Name of the person to greet",
+          "type": "script",
+          "location": "/home/ack/src/OpenIDE.CodeSamples/.OpenIDE/scripts/arguments.py",
+          "updated": "2014.05.10 23:13:54"
+        }
+      ],
+      "cmd": "arguments",
+      "description": "Runs a script with arguments",
+      "type": "script",
+      "location": "/home/ack/src/OpenIDE.CodeSamples/.OpenIDE/scripts/arguments.py",
+      "updated": "2014.05.10 23:13:54"
+    },
+    {
+      "arguments": [],
+      "cmd": "extend-environment-restart",
+      "description": "Extension for environment adding environment restart",
+      "type": "script",
+      "location": "/home/ack/src/OpenIDE.CodeSamples/.OpenIDE/scripts/extend-environment-restart.py",
+      "updated": "2014.05.10 23:13:54"
+    },
+    {
+      "arguments": [],
+      "cmd": "override-environment-details",
+      "description": "Overrides environment details to when no key path is specified it uses current",
+      "type": "script",
+      "location": "/home/ack/src/OpenIDE.CodeSamples/.OpenIDE/scripts/override-environment-details.py",
+      "updated": "2014.05.10 23:13:54"
+    },
+    {
+      "arguments": [],
+      "cmd": "print-output",
+      "description": "Prints text, warnings and errors",
+      "type": "script",
+      "location": "/home/ack/src/OpenIDE.CodeSamples/.OpenIDE/scripts/print-output.py",
+      "updated": "2014.05.10 23:13:54"
+    },
+    {
+      "arguments": [],
+      "cmd": "read-configuration",
+      "description": "Reads configuration and prints value",
+      "type": "script",
+      "location": "/home/ack/src/OpenIDE.CodeSamples/.OpenIDE/scripts/read-configuration.py",
+      "updated": "2014.05.10 23:13:54"
+    },
+    {
+      "arguments": [],
+      "cmd": "run-command",
+      "description": "Opens the running scrip in the editor",
+      "type": "script",
+      "location": "/home/ack/src/OpenIDE.CodeSamples/.OpenIDE/scripts/run-command.py",
+      "updated": "2014.05.10 23:13:54"
+    },
+    {
+      "arguments": [
+        {
+          "arguments": [],
+          "cmd": "FILE",
+          "description": "Path to the file you want to create",
+          "type": "script",
+          "location": "/home/ack/src/OpenIDE.CodeSamples/.OpenIDE/scripts/touch.py",
+          "updated": "2014.05.10 23:13:54"
+        }
+      ],
+      "cmd": "touch",
+      "description": "Creates a new file and appends appropriate header",
+      "type": "script",
+      "location": "/home/ack/src/OpenIDE.CodeSamples/.OpenIDE/scripts/touch.py",
+      "updated": "2014.05.10 23:13:54"
+    },
+    {
+      "arguments": [
+        {
+          "arguments": [],
+          "cmd": "restart",
+          "description": "Restarts environemnt",
+          "type": "script",
+          "location": "/home/ack/src/OpenIDE.CodeSamples/.OpenIDE/scripts/extend-environment-restart.py",
+          "updated": "2014.05.10 23:13:54"
+        }
+      ],
+      "cmd": "[[environment]]",
+      "description": "",
+      "type": "script",
+      "location": "/home/ack/src/OpenIDE.CodeSamples/.OpenIDE/scripts/extend-environment-restart.py",
+      "updated": "2014.05.10 23:13:54"
+    },
+    {
+      "arguments": [
+        {
+          "arguments": [
+            {
+              "arguments": [],
+              "cmd": "[KEY]",
+              "description": "The environment key path. Default current",
+              "type": "script",
+              "location": "/home/ack/src/OpenIDE.CodeSamples/.OpenIDE/scripts/override-environment-details.py",
+              "updated": "2014.05.10 23:13:54"
+            }
+          ],
+          "cmd": "details",
+          "description": "Displays details about a running environment",
+          "type": "script",
+          "location": "/home/ack/src/OpenIDE.CodeSamples/.OpenIDE/scripts/override-environment-details.py",
+          "updated": "2014.05.10 23:13:54"
+        }
+      ],
+      "cmd": "[[environment]]",
+      "description": "",
+      "type": "script",
+      "location": "/home/ack/src/OpenIDE.CodeSamples/.OpenIDE/scripts/override-environment-details.py",
+      "updated": "2014.05.10 23:13:54"
+    }
+  ]
+}
